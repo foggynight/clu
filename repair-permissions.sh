@@ -10,6 +10,9 @@
 # Filetypes
 # - *.sh:        0755
 
-find . -type d -print0 | xargs -0 chmod 0755
-find . -type f -print0 | xargs -0 chmod 0644
-find . -type f -regex ".*\.sh" -print0 | xargs -0 chmod 0755
+DEFAULT_RWX_MODE=0755
+DEFAULT_RW_MODE=0644
+
+find . -type d -print0 | xargs -0 chmod $DEFAULT_RWX_MODE
+find . -type f -print0 | xargs -0 chmod $DEFAULT_RW_MODE
+find . -type f -regex ".*\.sh" -print0 | xargs -0 chmod $DEFAULT_RWX_MODE
