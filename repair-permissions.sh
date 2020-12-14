@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# SPDX-License-Identifier: GPL-2.0
-# Copyright (C) 2020 Robert Coffey
 
 # Recursively update the permissions of all files
 # in the current directory.
@@ -11,6 +9,9 @@
 #
 # Filetypes
 # - *.sh:        0755
+#
+# Copyright (C) 2020 Robert Coffey
+# Licensed under the GNU GPLv2
 
 DEFAULT_RWX_MODE=0755
 DEFAULT_RW_MODE=0644
