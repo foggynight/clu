@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# --- repair-permissions.sh ---
+#
 # Recursively update the permissions of all files
 # in the current directory.
 #
