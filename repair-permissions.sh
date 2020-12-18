@@ -13,7 +13,7 @@
 # - *.sh:        0755
 #
 # Copyright (C) 2020 Robert Coffey
-# Licensed under the GNU GPLv2
+# Released under the GPLv2 license
 
 DEFAULT_RWX_MODE=0755
 DEFAULT_RW_MODE=0644

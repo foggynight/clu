@@ -5,7 +5,7 @@
 # Calculate the variance of a sample data set.
 #
 # Copyright (C) 2020 Robert Coffey
-# Licensed under the GNU GPLv2
+# Released under the GPLv2 license
 
 from math import sqrt
 from sys import argv
